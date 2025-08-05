@@ -14,8 +14,7 @@ export default function HomePage() {
               Bienvenido a RUMBO
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed md:text-xl">
-              Tu viaje hacia el bienestar emocional comienza aquí. Descubre tu estado emocional actual y encuentra el
-              camino perfecto para crecer, sanar y florecer.
+              Tu camino hacia un futuro laboral con propósito empieza hoy. Somos una plataforma de e-learning que te ayuda a materializar tus intereses en una ruta de aprendizaje y desarrollar habilidades humanas para enfrentar los desafíos del trabajo en la era de la automatización.
             </p>
           </div>
 
@@ -46,9 +45,10 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto">
                 <Heart className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold">Autoconocimiento</h3>
+              <h3 className="text-xl font-semibold">Exploración</h3>
               <p className="text-muted-foreground">
-                Descubre tu estado emocional actual con nuestro test personalizado
+                Descubrí tus intereses y trazá tu camino profesional
+Empezá por un test gratuito que te ayuda a identificar áreas de interés y motivación para crear tu ruta de aprendizaje personalizada.
               </p>
             </CardContent>
           </Card>
@@ -58,8 +58,9 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto">
                 <Target className="h-8 w-8 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold">Crecimiento</h3>
-              <p className="text-muted-foreground">Accede a cursos especializados para tu desarrollo personal</p>
+              <h3 className="text-xl font-semibold">Aprendizaje</h3>
+              <p className="text-muted-foreground">Accedé a cursos prácticos para el futuro del trabajo
+Formate en habilidades humanas clave como comunicación, adaptabilidad, propósito y toma de decisiones en tiempos de cambio.</p>
             </CardContent>
           </Card>
 
@@ -68,8 +69,9 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto">
                 <Sparkles className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold">Transformación</h3>
-              <p className="text-muted-foreground">Experimenta cambios positivos en tu bienestar emocional</p>
+              <h3 className="text-xl font-semibold">Proyección</h3>
+              <p className="text-muted-foreground">Construí un futuro laboral alineado con vos
+Aplicá lo aprendido para diseñar un camino con sentido, confianza y preparación ante la automatización y los nuevos desafíos laborales.</p>
             </CardContent>
           </Card>
         </div>
