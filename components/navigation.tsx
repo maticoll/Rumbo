@@ -12,7 +12,6 @@ export function Navigation() {
     { href: "/", label: "Inicio" },
     { href: "/test-emocional", label: "Test Emocional" },
     { href: "/cursos", label: "Cursos" },
-    { href: "/iniciar-sesion", label: "Iniciar Sesión" },
   ]
 
   return (
@@ -24,7 +23,7 @@ export function Navigation() {
           </Link>
 
           <div className="hidden md:flex items-center space-x-6">
-            {navItems.slice(0, -1).map((item) => (
+            {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -36,11 +35,22 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-            <Link href="/iniciar-sesion">
-              <Button variant={pathname === "/iniciar-sesion" ? "default" : "outline"} size="sm" className="ml-2">
-                Iniciar Sesión
-              </Button>
-            </Link>
+
+            <div className="flex items-center gap-2">
+              <Link href="/iniciar-sesion">
+                <Button variant="outline" size="sm">
+                  Iniciar Sesión
+                </Button>
+              </Link>
+              <Link href="/crear-cuenta">
+                <Button
+                  size="sm"
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                >
+                  Crear Cuenta
+                </Button>
+              </Link>
+            </div>
           </div>
 
           <div className="md:hidden flex items-center gap-2">
@@ -49,9 +59,9 @@ export function Navigation() {
                 Iniciar Sesión
               </Button>
             </Link>
-            <Button variant="ghost" size="sm">
-              Menú
-            </Button>
+            <Link href="/crear-cuenta">
+              <Button size="sm">Crear Cuenta</Button>
+            </Link>
           </div>
         </div>
       </div>

@@ -11,9 +11,9 @@ export default function HomePage() {
         <div className="text-center space-y-8">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Bienvenido/a a RUMBO
+              Bienvenidos a RUMBO
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed md:text-xl">
               Tu viaje hacia el bienestar emocional comienza aquí. Descubre tu estado emocional actual y encuentra el
               camino perfecto para crecer, sanar y florecer.
             </p>
