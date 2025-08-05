@@ -38,7 +38,7 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 py-8">
         <div className="grid md:grid-cols-3 gap-8">
           <Card className="text-center p-6 hover:shadow-lg transition-shadow">
             <CardContent className="space-y-4">
