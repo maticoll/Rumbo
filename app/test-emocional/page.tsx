@@ -11,31 +11,7 @@ import Link from "next/link"
 
 const emotionalQuestions = [
   {
-    id: 3,
-    question: "¿Con cuánta claridad sentís que tenés definidos tus intereses profesionales o vocacionales?",
-    type: "preference",
-    options: [
-      { value: "1", label: "Nada claros", score: 1 },
-      { value: "2", label: "Poco claros", score: 2 },
-      { value: "3", label: "Algo definidos", score: 3 },
-      { value: "4", label: "Bastante claros", score: 4 },
-      { value: "5", label: "Totalmente claros", score: 5 },
-    ],
-  },
-  {
     id: 4,
-    question: "¿Sentís que tenés habilidades que te diferencian de las máquinas o la inteligencia artificial?",
-    type: "preference",
-    options: [
-      { value: "1", label: "No", score: 1 },
-      { value: "2", label: "Pocas", score: 2 },
-      { value: "3", label: "Algunas", score: 3 },
-      { value: "4", label: "Bastantes", score: 4 },
-      { value: "5", label: "Muchas", score: 5 },
-    ],
-  },
-  {
-    id: 5,
     question: "¿Qué tan cómodo/a te sentís aprendiendo nuevas habilidades no técnicas (comunicación, empatía, adaptabilidad, etc.)?",
     type: "emotional",
     options: [
@@ -47,7 +23,7 @@ const emotionalQuestions = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     question: "¿Sentís que tus emociones afectan tu motivación o toma de decisiones frente al futuro?",
     type: "emotional",
     options: [
@@ -60,18 +36,6 @@ const emotionalQuestions = [
   },
   {
     id: 7,
-    question: "¿Qué tan informado/a estás sobre cómo la automatización está cambiando el mercado laboral?",
-    type: "preference",
-    options: [
-      { value: "1", label: "Nada informado/a", score: 1 },
-      { value: "2", label: "Poco informado/a", score: 2 },
-      { value: "3", label: "Algo informado/a", score: 3 },
-      { value: "4", label: "Bastante informado/a", score: 4 },
-      { value: "5", label: "Muy informado/a", score: 5 },
-    ],
-  },
-  {
-    id: 8,
     question: "¿Cuánto control sentís que tenés sobre tu futuro profesional?",
     type: "emotional",
     options: [
@@ -80,6 +44,69 @@ const emotionalQuestions = [
       { value: "3", label: "Algo de control", score: 3 },
       { value: "4", label: "Bastante control", score: 4 },
       { value: "5", label: "Total control", score: 5 },
+    ],
+  },
+]
+
+const preferenceQuestions = [
+  {
+    id: 1,
+    question: "¿Qué emociones predominan cuando pensás en tu futuro laboral?",
+    type: "preference",
+    options: [
+      { value: "1", label: "Ansiedad / miedo", score: 1 },
+      { value: "2", label: "Confusión / incertidumbre", score: 2 },
+      { value: "3", label: "Neutralidad", score: 3 },
+      { value: "4", label: "Curiosidad", score: 4 },
+      { value: "5", label: "Entusiasmo / motivación", score: 5 },
+    ],
+  },
+  {
+    id: 2,
+    question: "¿Qué tan preparado/a te sentís para los cambios que traerán la automatización y la inteligencia artificial al mundo del trabajo?",
+    type: "preference",
+    options: [
+      { value: "1", label: "Nada preparado/a", score: 1 },
+      { value: "2", label: "Poco preparado/a", score: 2 },
+      { value: "3", label: "Algo preparado/a", score: 3 },
+      { value: "4", label: "Bastante preparado/a", score: 4 },
+      { value: "5", label: "Totalmente preparado/a", score: 5 },
+    ],
+  },
+  {
+    id: 3,
+    question: "¿Con cuánta claridad sentís que tenés definidos tus intereses profesionales o vocacionales?",
+    type: "preference",
+    options: [
+      { value: "1", label: "Nada claros", score: 1 },
+      { value: "2", label: "Poco claros", score: 2 },
+      { value: "3", label: "Algo definidos", score: 3 },
+      { value: "4", label: "Bastante claros", score: 4 },
+      { value: "5", label: "Totalmente claros", score: 5 },
+    ],
+  },
+  {
+    id: 6,
+    question: "¿Sentís que tenés habilidades que te diferencian de las máquinas o la inteligencia artificial?",
+    type: "preference",
+    options: [
+      { value: "1", label: "No", score: 1 },
+      { value: "2", label: "Pocas", score: 2 },
+      { value: "3", label: "Algunas", score: 3 },
+      { value: "4", label: "Bastantes", score: 4 },
+      { value: "5", label: "Muchas", score: 5 },
+    ],
+  },
+  {
+    id: 8,
+    question: "¿Qué tan informado/a estás sobre cómo la automatización está cambiando el mercado laboral?",
+    type: "preference",
+    options: [
+      { value: "1", label: "Nada informado/a", score: 1 },
+      { value: "2", label: "Poco informado/a", score: 2 },
+      { value: "3", label: "Algo informado/a", score: 3 },
+      { value: "4", label: "Bastante informado/a", score: 4 },
+      { value: "5", label: "Muy informado/a", score: 5 },
     ],
   },
   {
