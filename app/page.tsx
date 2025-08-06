@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Heart, Target, Sparkles } from "lucide-react"
+import { Heart, Target, Sparkles } from 'lucide-react'
 
 export default function HomePage() {
   return (
@@ -39,7 +39,7 @@ export default function HomePage() {
 
       {/* Features Section */}
       <section className="container mx-auto px-4 py-8">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-4">
           <Card className="text-center p-6 hover:shadow-lg transition-shadow">
             <CardContent className="space-y-4">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto">
@@ -47,8 +47,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-semibold">Exploración</h3>
               <p className="text-muted-foreground">
-                Descubrí tus intereses y trazá tu camino profesional
-Empezá por un test gratuito que te ayuda a identificar áreas de interés y motivación para crear tu ruta de aprendizaje personalizada.
+                Descubrí tus intereses y trazá tu camino profesional. Empezá por un test gratuito que te ayuda a identificar áreas de interés y motivación para crear tu ruta de aprendizaje personalizada.
               </p>
             </CardContent>
           </Card>
@@ -59,8 +58,9 @@ Empezá por un test gratuito que te ayuda a identificar áreas de interés y mot
                 <Target className="h-8 w-8 text-purple-600" />
               </div>
               <h3 className="text-xl font-semibold">Aprendizaje</h3>
-              <p className="text-muted-foreground">Accedé a cursos prácticos para el futuro del trabajo
-Formate en habilidades humanas clave como comunicación, adaptabilidad, propósito y toma de decisiones en tiempos de cambio.</p>
+              <p className="text-muted-foreground">
+                Accedé a cursos prácticos para el futuro del trabajo. Formate en habilidades humanas clave como comunicación, adaptabilidad, propósito y toma de decisiones en tiempos de cambio.
+              </p>
             </CardContent>
           </Card>
 
@@ -70,8 +70,9 @@ Formate en habilidades humanas clave como comunicación, adaptabilidad, propósi
                 <Sparkles className="h-8 w-8 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold">Proyección</h3>
-              <p className="text-muted-foreground">Construí un futuro laboral alineado con vos
-Aplicá lo aprendido para diseñar un camino con sentido, confianza y preparación ante la automatización y los nuevos desafíos laborales.</p>
+              <p className="text-muted-foreground">
+                Construí un futuro laboral alineado con vos. Aplicá lo aprendido para diseñar un camino con sentido, confianza y preparación ante la automatización y los nuevos desafíos laborales.
+              </p>
             </CardContent>
           </Card>
         </div>

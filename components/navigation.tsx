@@ -12,6 +12,7 @@ export function Navigation() {
     { href: "/", label: "Inicio" },
     { href: "/test-emocional", label: "Test Emocional" },
     { href: "/cursos", label: "Cursos" },
+    { href: "/comunidad", label: "Comunidad" },
   ]
 
   return (
